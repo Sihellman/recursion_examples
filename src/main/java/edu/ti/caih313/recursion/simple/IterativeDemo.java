@@ -32,11 +32,11 @@ public class IterativeDemo {
 
     // Precondition: n >= 0.
     // Returns 10 raised to the power n.
-    private static int getPowerOfTen(int n) {
+    private static int getPowerOfTen(int n) {//n = 789
         int result = 1;
         while (n >= 10) {
-            result = result * 10;
-            n = n / 10;
+            result = result * 10; //result = 10 result = 100
+            n = n / 10; //n = 78 n = 7
         }
         return result;
     }
