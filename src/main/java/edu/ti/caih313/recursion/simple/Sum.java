@@ -1,4 +1,4 @@
-package edu.ti.caih313.recursion;
+package edu.ti.caih313.recursion.simple;
 
 public class Sum {
 
